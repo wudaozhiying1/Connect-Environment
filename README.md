@@ -1,29 +1,29 @@
-#Arduino IoT Project: Indoor Comfort Monitoring
-#This project is an Arduino-based IoT application that uses temperature, humidity, and wind speed data to calculate the Body Comfort Meteorological Index (BCMI). It determines whether indoor conditions are suitable for comfort.
+# Arduino IoT Project: Indoor Comfort Monitoring
+This project is an Arduino-based IoT application that uses temperature, humidity, and wind speed data to calculate the Body Comfort Meteorological Index (BCMI). It determines whether indoor conditions are suitable for comfort.</br>
 
-#File Descriptions
-#1. arduino_secrets.h
-#This file contains sensitive configuration data, such as Wi-Fi and MQTT credentials, required for network and data communication.
+# File Descriptions
+1. arduino_secrets.h</br>
+This file contains sensitive configuration data, such as Wi-Fi and MQTT credentials, required for network and data communication.</br>
 
 #SECRET_SSID: Wi-Fi network SSID.
 #SECRET_PASS: Wi-Fi network password.
 #SECRET_MQTTUSER: MQTT username.
 #SECRET_MQTTPASS: MQTT password.
-#2. sketch_nov29a.ino
-#The main Arduino sketch file that:
+# 2. sketch_nov29a.ino
+The main Arduino sketch file that:</br>
 
-#Connects to a Wi-Fi network.
-#Establishes MQTT communication.
-#Reads data from temperature, humidity, and wind speed sensors.
-#Calculates the BCMI (Body Comfort Meteorological Index) based on the sensor data.
-#Determines and reports whether indoor conditions are comfortable.
+Connects to a Wi-Fi network.</br>
+Establishes MQTT communication.</br>
+Reads data from temperature, humidity, and wind speed sensors.</br>
+Calculates the BCMI (Body Comfort Meteorological Index) based on the sensor data.</br>
+#Determines and reports whether indoor conditions are comfortable.</br>
 #Features
-#Real-Time Monitoring: Continuously reads data from sensors.
-#BCMI Calculation: Combines environmental data into a comprehensive comfort index.
-#MQTT Communication: Sends results to a cloud server for further analysis or logging.
+#Real-Time Monitoring: Continuously reads data from sensors.</br>
+#BCMI Calculation: Combines environmental data into a comprehensive comfort index.</br>
+#MQTT Communication: Sends results to a cloud server for further analysis or logging.</br>
 #Prerequisites
-#Hardware Requirements:
-#Arduino board with Wi-Fi capability (e.g., ESP32, Arduino Uno with Wi-Fi shield).
+#Hardware Requirements:</br>
+#Arduino board with Wi-Fi capability (e.g., ESP32, Arduino Uno with Wi-Fi shield).</br>
 #Sensors:
 #Temperature and humidity sensor.
 #Wind speed sensor.
