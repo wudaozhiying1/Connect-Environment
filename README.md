@@ -17,27 +17,27 @@ Establishes MQTT communication.</br>
 Reads data from temperature, humidity, and wind speed sensors.</br>
 Calculates the BCMI (Body Comfort Meteorological Index) based on the sensor data.</br>
 Determines and reports whether indoor conditions are comfortable.</br>
-Features
+# Features
 Real-Time Monitoring: Continuously reads data from sensors.</br>
 BCMI Calculation: Combines environmental data into a comprehensive comfort index.</br>
 MQTT Communication: Sends results to a cloud server for further analysis or logging.</br>
 Prerequisites
-Hardware Requirements:</br>
+# Hardware Requirements:</br>
 Arduino board with Wi-Fi capability (e.g., ESP32, Arduino Uno with Wi-Fi shield).</br>
-Sensors:</br>
+# Sensors:</br>
 Temperature and humidity sensor.</br>
-Wind speed sensor.</br>
+# Wind speed sensor.</br>
 Breadboard and connecting wires.</br>
-Software Libraries:</br>
+# Software Libraries:</br>
 WiFi.h or WiFiNINA.h for Wi-Fi communication.</br>
-Setup Instructions</br>
+# Setup Instructions</br>
 Prepare arduino_secrets.h: Update the file with your Wi-Fi and MQTT credentials:</br>
 
 #define SECRET_SSID "Your-WiFi-SSID"</br>
 #define SECRET_PASS "Your-WiFi-Password"</br>
 #define SECRET_MQTTUSER "Your-MQTT-Username"</br>
 #define SECRET_MQTTPASS "Your-MQTT-Password"</br>
-Configure Sensors:
+# Configure Sensors:
 
 Connect the temperature, humidity, and wind speed sensors to the Arduino according to their pinout and your board's GPIO mapping.</br>
 # Modify the Code:
