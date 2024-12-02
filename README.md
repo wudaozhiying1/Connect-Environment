@@ -45,27 +45,27 @@ Connect the temperature, humidity, and wind speed sensors to the Arduino accordi
 #Adjust sensor calibration constants or MQTT server details in the setup() function of sketch_nov29a.ino.</br>
 # Upload and Test:
 
-#Upload the sketch to your Arduino board.
-#Monitor the serial console to verify sensor readings, BCMI calculation, and MQTT communication.
-#Cloud Integration (Optional):
+# Upload the sketch to your Arduino board.
+Monitor the serial console to verify sensor readings, BCMI calculation, and MQTT communication.</br>
+# Cloud Integration :
 
-#Set up an MQTT server to receive and analyze data.
-#BCMI Calculation
-#The BCMI is computed using the following parameters:
+Set up an MQTT server to receive and analyze data.</br>
+BCMI Calculation</br>
+The BCMI is computed using the following parameters:</br>
 
-#Temperature (°C): Measures thermal comfort.
-#Humidity (%): Affects perceived temperature.
-#Wind Speed (m/s): Influences air circulation and cooling effect.
-#The calculated index categorizes indoor conditions into:
+Temperature (°C): Measures thermal comfort.</br>
+Humidity (%): Affects perceived temperature.</br>
+Wind Speed (m/s): Influences air circulation and cooling effect.</br>
+The calculated index categorizes indoor conditions into:</br>
 
-#Comfortable
-#Slightly uncomfortable
-#Uncomfortable
-#Notes
-#Sensor Accuracy: Ensure sensors are calibrated for reliable BCMI calculation.
-#Keep arduino_secrets.h secure: Protect your credentials to prevent unauthorized access.
-#Expandability: You can integrate additional sensors or features (e.g., light levels or CO₂ monitoring) to enhance functionality.
+Comfortable</br>
+Slightly uncomfortable</br>
+Uncomfortable</br>
+# Notes
+Sensor Accuracy: Ensure sensors are calibrated for reliable BCMI calculation.</br>
+Keep arduino_secrets.h secure: Protect your credentials to prevent unauthorized access.</br>
+Expandability: You can integrate additional sensors or features (e.g., light levels or CO₂ monitoring) to enhance functionality.</br>
 
-#License
-#This project is open-source and can be modified and shared freely. Please adhere to the licenses of any external libraries used.
+# License
+This project is open-source and can be modified and shared freely. Please adhere to the licenses of any external libraries used.
 
