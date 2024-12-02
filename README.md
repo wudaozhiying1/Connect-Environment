@@ -57,10 +57,11 @@ Temperature (°C): Measures thermal comfort.</br>
 Humidity (%): Affects perceived temperature.</br>
 Wind Speed (m/s): Influences air circulation and cooling effect.</br>
 The calculated index categorizes indoor conditions into:</br>
-
+Quite comfortable</br>
 Comfortable</br>
 Slightly uncomfortable</br>
 Uncomfortable</br>
+Very uncomfortable</br>
 # Notes
 Sensor Accuracy: Ensure sensors are calibrated for reliable BCMI calculation.</br>
 Keep arduino_secrets.h secure: Protect your credentials to prevent unauthorized access.</br>
