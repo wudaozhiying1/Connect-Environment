@@ -9,7 +9,7 @@ This file contains sensitive configuration data, such as Wi-Fi and MQTT credenti
 #SECRET_PASS: Wi-Fi network password.</br>
 #SECRET_MQTTUSER: MQTT username.</br>
 #SECRET_MQTTPASS: MQTT password.</br>
-# 2. sketch_nov29a.ino
+# sketch_nov29a.ino
 The main Arduino sketch file that:</br>
 
 Connects to a Wi-Fi network.</br>
