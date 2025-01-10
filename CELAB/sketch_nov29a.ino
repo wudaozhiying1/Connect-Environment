@@ -68,31 +68,31 @@ void printComfortLevel(float bcmi) {
   // Set RGB color based on comfort level
   switch (level) {
     case 9:// Extreme discomfort (highest BCMI range)
-      R = 255, G = 255, B = 255; 
+      R = 255, G = 192, B = 192; 
       break;
     case 8:
-      R = 100, G = 0 , B = 100; 
+      R = 192, G = 64 , B = 128; 
       break;
     case 7:
-      R = 100, G = 100, B = 100; 
+      R = 64, G = 0, B = 192; 
       break;
     case 6:
-      R = 255, G = 255, B = 0;   
+      R = 0, G = 128, B = 192;   
       break;
     case 5:
-      R = 255, G = 0, B = 255;   
+      R = 64, G = 192, B = 128;   
       break;
     case 4:
-      R = 0, G = 255, B = 255;  
+      R = 128, G = 192, B = 0;  
       break;
     case 3:
-      R = 255, G = 0, B = 0;  
+      R = 192, G = 128, B = 0;  
       break;
     case 2:
-      R = 0, G = 255, B = 0;   
+      R = 128, G = 64, B = 0;   
       break;
     case 1:// 
-      R = 0, G = 0, B = 255;   
+      R = 64, G = 0, B = 0;   
       break;
     default: // Unexpected value
       R = 0, G = 0, B = 0; // white
