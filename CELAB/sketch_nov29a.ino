@@ -47,37 +47,55 @@ void printComfortLevel(float bcmi) {
 
  // Determine comfort level based on BCMI thresholds
   if (bcmi >= 85) {
-    level = 5;
+    level = 9;
+  } else if (bcmi >= 79) {
+    level = 8;
   } else if (bcmi >= 75) {
-    level = 4;
-  } else if (bcmi >= 65) {
-    level = 3;
-  } else if (bcmi >= 55) {
-    level = 2;
-  } else if (bcmi >= 45) {
-    level = 1;
-  } else{
+    level = 7;
+  } else if (bcmi >= 70) {
+    level = 6;
+  } else if (bcmi >= 58) {
+    level = 5;
+  } elseif (bcmi >= 50){
+    level = 4; 
+  } elseif (bcmi >= 38){
+    level = 3; 
+  } elseif (bcmi >= 25){
+    level = 2; 
+  } elseif (bcmi >= 0){
     level = 1; 
   }
   // Set RGB color based on comfort level
   switch (level) {
-    case 5:// Extreme discomfort (highest BCMI range)
-      R = 255, G = 0, B = 0; // red
+    case 9:// Extreme discomfort (highest BCMI range)
+      R = 255, G = 255, B = 255; 
       break;
-    case 4:// High discomfort
-      R = 255, G = 255, B = 255; // white
+    case 8:
+      R = 100, G = 0 , B = 100; 
       break;
-    case 3:// Moderate discomfort
-      R = 255, G = 255, B = 0; // yellow
+    case 7:
+      R = 100, G = 100, B = 100; 
       break;
-    case 2:// Comfortable
-      R = 0, G = 255, B = 0;   // green
+    case 6:
+      R = 255, G = 255, B = 0;   
       break;
-    case 1:// Slightly cool
-      R = 0, G = 0, B = 255;   // blue
+    case 5:
+      R = 255, G = 0, B = 255;   
+      break;
+    case 4:
+      R = 0, G = 255, B = 255;  
+      break;
+    case 3:
+      R = 255, G = 0, B = 0;  
+      break;
+    case 2:
+      R = 0, G = 255, B = 0;   
+      break;
+    case 1:// 
+      R = 0, G = 0, B = 255;   
       break;
     default: // Unexpected value
-      R = 255, G = 255, B = 255; // white
+      R = 0, G = 0, B = 0; // white
       break;
   }
 }
