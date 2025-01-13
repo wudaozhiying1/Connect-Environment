@@ -51,17 +51,13 @@ The BCMI is computed using the following parameters:</br>
 Temperature (°C): Measures thermal comfort.</br>
 Humidity (%): Affects perceived temperature.</br>
 Wind Speed (m/s): Influences air circulation and cooling effect.</br>
-The calculated index categorizes indoor conditions into:</br>
-Quite comfortable</br>
-Comfortable</br>
-Slightly uncomfortable</br>
-Uncomfortable</br>
-Very uncomfortable</br>
 # Notes
 Sensor Accuracy: Ensure sensors are calibrated for reliable BCMI calculation.</br>
 Keep arduino_secrets.h secure: Protect your credentials to prevent unauthorized access.</br>
 Expandability: You can integrate additional sensors or features (e.g., light levels or CO₂ monitoring) to enhance functionality.</br>
+# Result
+https://youtube.com/shorts/GdZh85mInW4?feature=share
 
 # License
-This project is open-source and can be modified and shared freely. Please adhere to the licenses of any external libraries used.
+This project is open-source and can be modified and shared freely. Please follow the licenses of any external libraries used.
 
